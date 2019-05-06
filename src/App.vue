@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <sf-navbar></sf-navbar>
     <router-view/>
   </div>
 </template>
@@ -27,3 +24,9 @@
   }
 }
 </style>
+<script>
+  import SfNavbar from "./components/header";
+  export default {
+    components: {SfNavbar}
+  }
+</script>
