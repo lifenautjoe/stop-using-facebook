@@ -12,6 +12,15 @@
 </template>
 
 <style lang="scss">
+
+    .stop-facebook{
+        background: url('~@/assets/background.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .facebook-highlight{
         background-color: #1568e0;
         color: white;
