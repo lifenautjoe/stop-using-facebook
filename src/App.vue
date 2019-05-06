@@ -25,7 +25,7 @@
 }
 </style>
 <script>
-  import SfNavbar from "./components/header";
+  import SfNavbar from "./components/Header";
   export default {
     components: {SfNavbar}
   }

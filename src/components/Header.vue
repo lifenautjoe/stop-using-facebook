@@ -12,14 +12,14 @@
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-end">
                     <a class="navbar-item">
-                        What
+                        what
                     </a>
 
                     <a class="navbar-item">
-                        Why
+                        why
                     </a>
                     <a class="navbar-item">
-                        How
+                        how
                     </a>
                 </div>
             </div>
