@@ -75,10 +75,6 @@
             return {
                 'whys': [
                     {
-                        why: 'Because Facebook employees are reading your private messages and classifying them one by one to train Facebook’s artificial intelligence.',
-                        source: 'https://www.theverge.com/2019/5/6/18530887/facebook-instagram-ai-data-labeling-annotation-private-posts-outsourced'
-                    },
-                    {
                         why: 'Because Facebook stole 1.5 million people’s email contacts by “mistake” after asking users for their email passwords.',
                         source: 'https://www.businessinsider.nl/facebook-uploaded-1-5-million-users-email-contacts-without-permission-2019-4/?international=true&r=US'
                     },
@@ -107,11 +103,15 @@
                         source: 'https://mashable.com/article/facebook-employees-react-teen-spying-app-blind/',
                     },
                     {
+                        why: 'Because Facebook employees are reading your private messages one by one to train Facebook’s artificial intelligence.',
+                        source: 'https://www.theverge.com/2019/5/6/18530887/facebook-instagram-ai-data-labeling-annotation-private-posts-outsourced'
+                    },
+                    {
                         why: 'Because Facebook plan to fuse Instagram, Facebook and Whatsapp is not about your privacy, It’s about consolidating all the data they have on you.',
                         source: 'https://onezero.medium.com/facebooks-plan-to-fuse-its-messaging-apps-is-not-about-your-privacy-91c237e50c17'
                     },
                     {
-                        why: 'Because Facebook not only knows conspiracy theories are being spread on the platform, they actually make money out of it.',
+                        why: 'Because Facebook not only knows conspiracy theories are being spread on the platform, they make a fortune out of it.',
                         source: 'https://twitter.com/WolfieChristl/status/1058503379377381376',
                     },
                     {
