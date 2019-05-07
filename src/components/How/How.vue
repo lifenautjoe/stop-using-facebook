@@ -72,6 +72,9 @@
     import diaspora from './assets/diaspora-300x300.png';
     import pixelFed from './assets/pixelfed-300x300.png';
     import openbookLogo from './assets/Openbook-300x300.png';
+    import oculusLogo from './assets/oculus_logo.png';
+    import viveLogo from './assets/vive_logo.png';
+    import playstationVrLogo from './assets/psvr_logo.png';
     import tookapicLogo from './assets/Tookapic-300x300.png';
     import SfProduct from "./components/Product";
 
@@ -167,6 +170,30 @@
                                 description: 'Open-source messenger app created by a group of friends with an interest in Tibetan culture',
                                 image: zomLogo,
                                 url: 'https://zom.im/'
+                            },
+                        ],
+                    },
+                    {
+                        replace: 'Replace the VR ecosystem',
+                        what: [
+                            {
+                                name: 'Oculus',
+                                image: oculusLogo,
+                                url: 'https://www.oculus.com/',
+                            },
+                        ],
+                        alternatives: [
+                            {
+                                name: 'HTC Vive',
+                                description: 'Virtual reality ecosystem by HTC & Valve.',
+                                image: viveLogo,
+                                url: 'https://www.vive.com'
+                            },
+                            {
+                                name: 'Playstation VR',
+                                description: 'Virtual reality ecosystem by Sony on the PlayStation.',
+                                image: playstationVrLogo,
+                                url: 'https://www.playstation.com/en-ae/explore/playstation-vr/'
                             },
                         ],
                     },
