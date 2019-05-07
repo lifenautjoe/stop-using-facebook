@@ -4,7 +4,7 @@
             <div class="columns">
                 <div class="column">
                     <p class="title">
-                        Boycott <span class="facebook-highlight">Facebook</span>.
+                        Stop using <span class="facebook-highlight">Facebook</span>.
                     </p>
                 </div>
                 <div class="column">
@@ -19,7 +19,7 @@
                     </div>
                     <div class="content">
                         <p class="is-size-6 has-text-grey-light">
-                            <a href="https://github.com/lifenautjoe/boycott-facebook" rel="nofollow noreferrer nofollow"
+                            <a href="https://github.com/lifenautjoe/stop-using-facebook" rel="nofollow noreferrer nofollow"
                                target="_blank">
                                 <span>Contribute on Github.</span>
                             </a>

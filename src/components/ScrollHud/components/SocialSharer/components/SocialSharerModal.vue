@@ -1,9 +1,9 @@
 <template>
     <div>
-        <social-sharing url="https://www.boycottfacebook.co"
-                        title="A curated list of reasons to boycott Facebook and how to do it."
-                        description="A curated list of reasons to boycott Facebook and how to do it."
-                        hashtags="BoycottFacebook"
+        <social-sharing url="https://www.stopusingfacebook.co"
+                        title="A curated list of reasons to stop using Facebook and how to do it."
+                        description="A curated list of reasons to stop using Facebook and how to do it."
+                        hashtags="StopUsingFacebook"
                         inline-template>
             <div class="columns is-mobile is-multiline">
                 <network network="twitter" class="column is-12 social-sharing-item">

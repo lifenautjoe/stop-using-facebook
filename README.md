@@ -1,7 +1,7 @@
 
-[![CircleCI](https://circleci.com/gh/lifenautjoe/boycott-facebook.svg?style=svg)](https://circleci.com/gh/OpenbookOrg/openbook-org-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
+[![CircleCI](https://circleci.com/gh/lifenautjoe/stop-using-facebook.svg?style=svg)](https://circleci.com/gh/OpenbookOrg/openbook-org-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
 
-The code for [boycottfacebook.co](https://www.boycottfacebook.co).
+The code for [stopusingfacebook.co](https://www.stopusingfacebook.co).
 
 ## Table of contents
 
@@ -65,7 +65,7 @@ If you're using git in your command line, you can download the handy tool [gitmo
 Clone the repository
 
 ```sh
-git clone git@github.com:lifenautjoe/boycott-facebook.git
+git clone git@github.com:lifenautjoe/stop-using-facebook.git
 ```
 
 Install the dependencies

@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="is-size-1">
-                    <strong>Boycott <span class="facebook-highlight">Facebook</span>.</strong>
+                    <strong>Stop using <span class="facebook-highlight">Facebook</span>.</strong>
                 </h1>
             </div>
         </div>
