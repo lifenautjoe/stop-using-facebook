@@ -10,10 +10,18 @@
                 <div class="column">
                     <div class="content has-text-centered">
                         <p class="is-size-5">
-                            <span>A weekend project by </span>
+                            <span>An MIT licensed weekend project by </span>
                             <a href="https://twitter.com/lifenautjoe" rel="nofollow noreferrer nofollow"
                                target="_blank">
-                                <i class="fab fa-twitter"></i>@lifenautjoe
+                                <i class="fab fa-twitter"></i> &nbsp;@lifenautjoe
+                            </a>
+                        </p>
+                    </div>
+                    <div class="content">
+                        <p class="is-size-6 has-text-grey-light">
+                            <a href="https://github.com/lifenautjoe/boycott-facebook" rel="nofollow noreferrer nofollow"
+                               target="_blank">
+                                <span>Contribute on Github.</span>
                             </a>
                         </p>
                     </div>

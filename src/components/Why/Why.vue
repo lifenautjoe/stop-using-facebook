@@ -5,7 +5,7 @@
         </h2>
         <ul class="reasons">
             <li v-for="reason in reasons" class="has-text-left reason">
-                <a :href="reason.source" target="_blank" rel="nofollow noopener noreferer" class="is-size-3 reason__link">
+                <a :href="reason.source" target="_blank" rel="nofollow noopener noreferer" class="is-size-3 is-size-5-mobile reason__link">
                     {{reason.reason}}
                 </a>
             </li>

@@ -5,7 +5,7 @@
         </h2>
         <div class="hows">
             <div v-for="how in hows" class="how has-text-left">
-                <h4 class="is-size-3 how-title">
+                <h4 class="is-size-3 how-title is-size-4-mobile">
                     {{how.title}}
                 </h4>
                 <div class="columns is-mobile is-multiline">
@@ -14,7 +14,7 @@
                                 v-bind:key="item.name"></sf-product>
                 </div>
                 <img :src="how.what.image" :alt="how.what.name" class="how-what__img">
-                <h4 class="is-size-3 how-title">
+                <h4 class="is-size-3 how-title is-size-4-mobile">
                     with
                 </h4>
                 <div class="columns is-mobile is-multiline">
