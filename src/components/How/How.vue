@@ -125,16 +125,16 @@
                                 url: 'https://pixelfed.social/'
                             },
                             {
-                                name: 'Openbook',
-                                description: 'Privacy-friendly, transparent and community-driven social network.',
-                                image: openbookLogo,
-                                url: 'https://zotlabs.com/zap/'
-                            },
-                            {
                                 name: 'Tookapic',
                                 description: '365-day photo-sharing platform that encourages you to be thankful for beautiful, ordinary days.',
                                 image: tookapicLogo,
                                 url: 'https://tookapic.com/'
+                            },
+                            {
+                                name: 'Openbook',
+                                description: 'Privacy-friendly, transparent and community-driven social network.',
+                                image: openbookLogo,
+                                url: 'https://zotlabs.com/zap/'
                             },
                         ],
                     },
