@@ -5,12 +5,9 @@
         </h2>
         <ul class="whys">
             <li v-for="why in whys" class="has-text-left why">
-                <p class="is-size-3">
+                <a :href="why.source" class="is-size-3 why__link">
                     {{why.why}}
-                </p>
-                <div class="why-source">
-                    <a :href="why.source" class="why-source__link is-size-5"><strong>SOURCE</strong></a>
-                </div>
+                </a>
             </li>
         </ul>
     </div>
@@ -50,19 +47,13 @@
 
         }
 
-        &-source{
-            padding-top: 1em;
-            padding-bottom: 1em;
-            &__link{
-                padding: 0.1em 0.3em;
-                background-color: #1568e0;
-                color: white;
+        &:hover,&:focus{
+            text-decoration: underline;
+            text-decoration-color: #1568e0;
+        }
 
-                &:focus,&:hover{
-                    background-color: #005ce0;
-                    color: white;
-                }
-            }
+        &__link{
+            color:black;
         }
     }
 </style>
