@@ -1,29 +1,87 @@
-# stop-facebook
 
-## Project setup
-```
-npm install
+[![CircleCI](https://circleci.com/gh/lifenautjoe/boycott-facebook.svg?style=svg)](https://circleci.com/gh/OpenbookOrg/openbook-org-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
+
+The code for [boycottfacebook.co](https://www.boycottfacebook.co).
+
+## Table of contents
+
+- [Requirements](#requirements)
+- [Project overview](#project-overview)
+- [Contributing](#contributing)
+    + [Code of Conduct](#code-of-conduct)
+    + [License](#license)
+    + [Other issues](#other-issues)
+    + [Git commit message conventions](#git-commit-message-conventions)
+- [Getting started](#getting-started)
+
+## Requirements
+
+* [Node](https://nodejs.org) > 7.6
+ 
+## Project overview
+
+The website is a [Vue 2.x](https://vuejs.org/) application.
+
+Other relevant technologies used are
+
+* [Sass](https://sass-lang.com/) for stylesheets
+* [Bulma](https://bulma.io/documentation/overview/start/) for kickstarting the styles/layout.
+* [Buefy](https://buefy.github.io/#/) for providing the logic to the Bulma components.
+* [Webpack 4](https://webpack.js.org/) for bundling everything together
+
+## Contributing
+
+There are many different ways to contribute to the website development, just find the one that best fits with your skills and open an issue/pull request in the repository.
+
+Examples of contributions we love include:
+
+- **Code patches**
+- **Bug reports**
+- **Patch reviews**
+- **Translations**
+- **UI enhancements**
+
+#### Code of Conduct
+
+Please read and follow our [Code of Conduct](/CODE_OF_CONDUCT.md).
+
+#### License
+
+Every contribution accepted is licensed under [MIT](https://opensource.org/licenses/MIT) or any later version.
+You must be careful to not include any code that can not be licensed under this license.
+
+Please read carefully [our license](/LICENSE.txt) and ask us if you have any questions.
+
+#### Git commit message conventions
+
+Help us keep the repository history consistent 🙏!
+
+We use [gitmoji](https://gitmoji.carloscuesta.me/) as our git message convention.
+
+If you're using git in your command line, you can download the handy tool [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli).
+
+## Getting started
+
+Clone the repository
+
+```sh
+git clone git@github.com:lifenautjoe/boycott-facebook.git
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+Install the dependencies
+```bash
+$ npm install
 ```
 
-### Compiles and minifies for production
+Serve with hot reload at localhost:3000
+```bash
+$ npm run serve
 ```
+
+Build for production
+```bash
 npm run build
 ```
+<br>
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Happy coding 🎉!
