@@ -10,7 +10,7 @@
                 <div class="column">
                     <div class="content has-text-centered">
                         <p class="is-size-5">
-                            <span>An MIT licensed weekend project by </span>
+                            <span>An MIT licensed, weekend project by </span>
                             <a href="https://twitter.com/lifenautjoe" rel="nofollow noreferrer nofollow"
                                target="_blank">
                                 <i class="fab fa-twitter"></i> &nbsp;@lifenautjoe
