@@ -1,0 +1,160 @@
+<template>
+    <div class="container">
+        <h2 class="is-size-2">
+            <strong>How?</strong>
+        </h2>
+        <div class="hows">
+            <div v-for="how in hows" class="how has-text-left">
+                <h4 class="is-size-3 how-title">
+                    Replace
+                </h4>
+                <div class="columns is-mobile is-multiline">
+                    <sf-product class="column is-6-mobile is-3-tablet is-3-desktop" v-for="item in how.what" :name="item.name" :image="item.image" :url="item.url" v-bind:key="item.name"></sf-product>
+                </div>
+                <img :src="how.what.image" :alt="how.what.name" class="how-what__img">
+                <h4 class="is-size-3 how-title">
+                    With
+                </h4>
+                <div class="columns is-mobile is-multiline">
+                    <sf-product class="column is-12-mobile is-4-tablet is-4-desktop how-replace-with" v-for="alternative in how.alternatives" :name="alternative.name" :image="alternative.image" :url="alternative.url"  :description="alternative.description" v-bind:key="alternative.name"></sf-product>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style lang="scss">
+    .hows {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+
+    .how {
+        position: relative;
+        max-width: 800px;
+        padding: 1rem;
+
+        &-title{
+            padding-bottom: 1em;
+        }
+
+        &-what{
+            &__img{
+                max-width: 400px;
+            }
+        }
+
+        &-replace-with{
+            min-height: 300px;
+        }
+    }
+</style>
+
+<script>
+    import fbLogo from './assets/fb_logo.png';
+    import instagramLogo from './assets/instagram_logo.png';
+    import mastodonLogo from './assets/mastodon-300x300.png';
+    import friendicaLogo from './assets/friendica-300x300.png';
+    import diaspora from './assets/diaspora-300x300.png';
+    import pixelFed from './assets/pixelfed-300x300.png';
+    import steemit from './assets/steemit-1-300x300.png';
+    import scuttle from './assets/Scuttlebutt-300x300.png';
+    import zap from './assets/Zap-1-300x300.png';
+    import openbookLogo from './assets/Openbook-300x300.png';
+    import tookapicLogo from './assets/Tookapic-300x300.png';
+    import Microblog from './assets/Microblog-300x300.png';
+    import SfProduct from "./components/Product";
+
+
+    export default {
+        name: 'sf-how',
+        components: {SfProduct},
+        data() {
+            return {
+                'hows': [
+                    {
+                        what: [
+                            {
+                                name: 'Facebook',
+                                image: fbLogo,
+                                url: 'https://facebook.com',
+                            },
+                            {
+                                name: 'Instagram',
+                                image: instagramLogo,
+                                url: 'https://instagram.com',
+                            }
+                        ],
+                        alternatives: [
+                            {
+                                name: 'Mastodon',
+                                description: 'With millions of users, Mastadon is the most popular alternative social network',
+                                image: mastodonLogo,
+                                url: 'https://joinmastodon.org/'
+                            },
+                            {
+                                name: 'Friendica',
+                                description: 'A Facebook-style social network with no central ownership',
+                                image: friendicaLogo,
+                                url: 'https://friendi.ca/'
+                            },
+                            {
+                                name: 'Diaspora',
+                                description: 'Facebook alternative based on the principles of decentralisation, freedom and privacy',
+                                image: diaspora,
+                                url: 'https://joindiaspora.com/'
+                            },
+                            {
+                                name: 'Pixelfed',
+                                description: 'Ad-free photo sharing app with chronological timeline.',
+                                image: pixelFed,
+                                url: 'https://pixelfed.social/'
+                            },
+                            {
+                                name: 'Steemit',
+                                description: 'Steemit promises a new kind of attention economy - by paying users for their content (in the STEEM cryptocurrency)',
+                                image: steemit,
+                                url: 'https://steemit.com/'
+                            },
+                            {
+                                name: 'Scuttlebutt',
+                                description: 'Named after "basically a watercooler on a ship", this app is for gossiping securely',
+                                image: scuttle,
+                                url: 'https://www.scuttlebutt.nz/'
+                            },
+                            {
+                                name: 'Zap',
+                                description: 'Social network with privacy centre stage',
+                                image: zap,
+                                url: 'https://zotlabs.com/zap/'
+                            },
+                            {
+                                name: 'Openbook',
+                                description: 'Privacy-friendly, transparent and community-driven social network.',
+                                image: openbookLogo,
+                                url: 'https://zotlabs.com/zap/'
+                            },
+                            {
+                                name: 'Tookapic',
+                                description: '365-day photo-sharing platform that encourages you to be thankful for beautiful, ordinary days.',
+                                image: tookapicLogo,
+                                url: 'https://tookapic.com/'
+                            },
+                            {
+                                name: 'Micro.blog',
+                                description: 'A safe community for micro blogs.',
+                                image: Microblog,
+                                url: 'https://micro.blog/'
+                            },
+
+                        ]
+                    },
+                ]
+            }
+        }
+    }
+</script>

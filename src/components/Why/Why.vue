@@ -5,9 +5,15 @@
         </h2>
         <ul class="whys">
             <li v-for="why in whys" class="has-text-left why">
-                <a :href="why.source" class="is-size-3 why__link">
+                <a :href="why.source" target="_blank" rel="nofollow noopener noreferer" class="is-size-3 why__link">
                     {{why.why}}
                 </a>
+            </li>
+            <li>
+                <p class="has-text-grey-dark">
+                    <i> Last updated 7th of May, 2019.
+                    </i>
+                </p>
             </li>
         </ul>
     </div>
@@ -47,13 +53,13 @@
 
         }
 
-        &:hover,&:focus{
+        &:hover, &:focus {
             text-decoration: underline;
             text-decoration-color: #1568e0;
         }
 
-        &__link{
-            color:black;
+        &__link {
+            color: black;
         }
     }
 </style>
