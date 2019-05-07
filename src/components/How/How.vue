@@ -62,7 +62,6 @@
 <script>
     import signalLogo from './assets/signal-300x300.png';
     import telegramLogo from './assets/Telegram-300x300.png';
-    import riotLogo from './assets/riotim-300x300.jpg';
     import zomLogo from './assets/zom-300x300.png';
     import fbLogo from './assets/fb_logo.png';
     import waLogo from './assets/wa_logo.png';
@@ -72,12 +71,8 @@
     import friendicaLogo from './assets/friendica-300x300.png';
     import diaspora from './assets/diaspora-300x300.png';
     import pixelFed from './assets/pixelfed-300x300.png';
-    import steemit from './assets/steemit-1-300x300.png';
-    import scuttle from './assets/Scuttlebutt-300x300.png';
-    import zap from './assets/Zap-1-300x300.png';
     import openbookLogo from './assets/Openbook-300x300.png';
     import tookapicLogo from './assets/Tookapic-300x300.png';
-    import Microblog from './assets/Microblog-300x300.png';
     import SfProduct from "./components/Product";
 
 
@@ -125,12 +120,6 @@
                                 description: 'Ad-free photo sharing app with chronological timeline.',
                                 image: pixelFed,
                                 url: 'https://pixelfed.social/'
-                            },
-                            {
-                                name: 'Steemit',
-                                description: 'Steemit promises a new kind of attention economy - by paying users for their content (in the STEEM cryptocurrency)',
-                                image: steemit,
-                                url: 'https://steemit.com/'
                             },
                             {
                                 name: 'Openbook',
