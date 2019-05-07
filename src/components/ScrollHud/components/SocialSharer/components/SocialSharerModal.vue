@@ -4,7 +4,6 @@
                         title="A curated list of reasons to boycott Facebook and how to do it."
                         description="A curated list of reasons to boycott Facebook and how to do it."
                         hashtags="BoycottFacebook"
-                        twitter-user="BoycottFBCo"
                         inline-template>
             <div class="columns is-mobile is-multiline">
                 <network network="twitter" class="column is-12 social-sharing-item">
