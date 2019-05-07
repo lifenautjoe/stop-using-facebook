@@ -20,16 +20,6 @@
         -o-background-size: cover;
         background-size: cover;
     }
-
-    .facebook-highlight{
-        background-color: #1568e0;
-        color: white;
-
-        &:hover,&:focus{
-            color: white;
-            background-color: red;
-        }
-    }
 </style>
 
 <script>

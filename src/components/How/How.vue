@@ -1,12 +1,12 @@
 <template>
-    <div class="container">
+    <section class="container">
         <h2 class="is-size-2">
             <strong>How?</strong>
         </h2>
         <div class="hows">
             <div v-for="how in hows" class="how has-text-left">
                 <h4 class="is-size-3 how-title">
-                    {{how.replace}}
+                    {{how.title}}
                 </h4>
                 <div class="columns is-mobile is-multiline">
                     <sf-product class="column is-6-mobile is-3-tablet is-3-desktop" v-for="item in how.what"
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="scss">
@@ -86,7 +86,7 @@
             return {
                 'hows': [
                     {
-                        replace: 'Replace the social apps',
+                        title: 'Replace the social apps',
                         what: [
                             {
                                 name: 'Facebook',
@@ -139,7 +139,7 @@
                         ],
                     },
                     {
-                        replace: 'Replace the messaging apps',
+                        title: 'Replace the messaging apps',
                         what: [
                             {
                                 name: 'Whatsapp',
@@ -174,7 +174,7 @@
                         ],
                     },
                     {
-                        replace: 'Replace the VR ecosystem',
+                        title: 'Replace the VR ecosystem',
                         what: [
                             {
                                 name: 'Oculus',

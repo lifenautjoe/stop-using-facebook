@@ -13,6 +13,7 @@
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "@vue/cli-plugin-pwa": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
     "sass": "^1.18.0",
