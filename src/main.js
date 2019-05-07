@@ -10,8 +10,9 @@ import 'buefy/dist/buefy.css'
 Vue.use(Buefy);
 var VueScrollTo = require('vue-scrollto');
 
-Vue.use(VueScrollTo);
-
+Vue.use(VueScrollTo, {
+    offset: -90
+});
 
 Vue.config.productionTip = false;
 
