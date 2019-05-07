@@ -11,14 +11,13 @@
 
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#what" v-scroll-to="'#what'">
                         what
                     </a>
-
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#why" v-scroll-to="'#why'">
                         why
                     </a>
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="#how" v-scroll-to="'#how'">
                         how
                     </a>
                 </div>

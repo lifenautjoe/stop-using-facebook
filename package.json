@@ -10,7 +10,8 @@
     "bulma": "^0.7.4",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.3"
+    "vue-router": "^3.0.3",
+    "vue-scrollto": "^2.15.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",

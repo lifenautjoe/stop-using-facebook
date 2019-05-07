@@ -1,5 +1,5 @@
 <template>
-    <section class="container">
+    <section class="container" id="how">
         <h2 class="is-size-2">
             <strong>How?</strong>
         </h2>

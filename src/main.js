@@ -4,6 +4,10 @@ import router from './router'
 import './registerServiceWorker'
 import 'bulma/bulma.sass'
 import '@fortawesome/fontawesome-free/css/all.css';
+var VueScrollTo = require('vue-scrollto');
+
+Vue.use(VueScrollTo);
+
 
 Vue.config.productionTip = false;
 

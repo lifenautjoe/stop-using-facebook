@@ -1,6 +1,6 @@
 
 <template>
-    <section class="hero is-large stop-facebook">
+    <section class="hero is-large stop-facebook" id="#what">
         <div class="hero-body">
             <div class="container">
                 <h1 class="is-size-1">
