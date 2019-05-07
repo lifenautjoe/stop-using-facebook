@@ -6,7 +6,10 @@ import 'bulma/bulma.sass'
 import '@fortawesome/fontawesome-free/css/all.css';
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import 'animate.css/animate.css';
+var SocialSharing = require('vue-social-sharing');
 
+Vue.use(SocialSharing);
 Vue.use(Buefy);
 var VueScrollTo = require('vue-scrollto');
 

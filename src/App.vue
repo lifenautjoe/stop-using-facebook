@@ -3,6 +3,7 @@
         <sf-navbar></sf-navbar>
         <router-view/>
         <sf-footer></sf-footer>
+        <sf-scroll-hud></sf-scroll-hud>
     </div>
 </template>
 
@@ -24,12 +25,23 @@
             background-color: red;
         }
     }
+
+    .facebook-highlight-blue {
+        background-color: #1568e0 !important;
+        color: white !important;
+
+        &:hover, &:focus {
+            color: white !important;
+            background-color: #1458b6 !important;
+        }
+    }
 </style>
 <script>
     import SfNavbar from "./components/Header";
     import SfFooter from "./components/Footer";
+    import SfScrollHud from "./components/ScrollHud/ScrollHud";
 
     export default {
-        components: {SfFooter, SfNavbar}
+        components: {SfScrollHud, SfFooter, SfNavbar}
     }
 </script>
