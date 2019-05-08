@@ -13,6 +13,10 @@ export default new Router({
             name: 'home',
             component: Home
         },
+        {
+            path: '*',
+            redirect: `/`
+        },
     ],
     scrollBehavior() {
         return {
