@@ -16,7 +16,6 @@
     $button-size: 45px;
 
     .social-sharer {
-        border: solid 1px white !important;
         position: absolute !important;
         bottom: 0;
         left: 0;
