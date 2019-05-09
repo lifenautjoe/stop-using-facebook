@@ -155,7 +155,7 @@
                         alternatives: [
                             {
                                 name: 'Signal',
-                                description: 'Open-source text, voice and video messaging app supported entirely by grants and donations',
+                                description: 'Open-source text, voice and video messaging app developed by a non-profit organization. Sustained entirely by grants and donations',
                                 image: signalLogo,
                                 url: 'https://signal.org/'
                             },
