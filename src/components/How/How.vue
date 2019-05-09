@@ -63,6 +63,7 @@
     import signalLogo from './assets/signal-300x300.png';
     import telegramLogo from './assets/Telegram-300x300.png';
     import zomLogo from './assets/zom-300x300.png';
+    import riotLogo from './assets/riotim-300x300.jpg';
     import fbLogo from './assets/fb_logo.png';
     import waLogo from './assets/wa_logo.png';
     import messengerLogo from './assets/messenger.png';
@@ -134,7 +135,7 @@
                                 name: 'Openbook',
                                 description: 'Privacy-friendly, transparent and community-driven social network.',
                                 image: openbookLogo,
-                                url: 'https://zotlabs.com/zap/'
+                                url: 'https://openbook.social'
                             },
                         ],
                     },
@@ -170,6 +171,12 @@
                                 description: 'Open-source messenger app created by a group of friends with an interest in Tibetan culture',
                                 image: zomLogo,
                                 url: 'https://zom.im/'
+                            },
+                            {
+                                name: 'Riot.im',
+                                description: 'End-to-end encrypted open-source slack alternative that allows you to run your own server',
+                                image: riotLogo,
+                                url: 'https://about.riot.im/'
                             },
                         ],
                     },
