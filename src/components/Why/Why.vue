@@ -8,6 +8,10 @@
                 <a :href="reason.source" target="_blank" rel="nofollow noopener noreferer"
                    class="is-size-3 is-size-5-mobile reason__link">
                     {{reason.reason}}
+
+                    <p class="is-size-5" style="padding-top: 1em">
+                        Source <i class="fas fa-chevron-right fa-xs"></i>
+                    </p>
                 </a>
             </li>
             <li>
