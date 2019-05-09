@@ -1,3 +1,5 @@
+<img alt="StopUsingFacebook.co Logo" src="/logo-transparent.png" width="200">
+
 
 [![CircleCI](https://circleci.com/gh/lifenautjoe/stop-using-facebook.svg?style=svg)](https://circleci.com/gh/OpenbookOrg/openbook-org-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
 
