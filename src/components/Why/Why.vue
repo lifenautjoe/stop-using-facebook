@@ -101,6 +101,18 @@
                         source: 'https://www.businessinsider.nl/facebook-uploaded-1-5-million-users-email-contacts-without-permission-2019-4/?international=true&r=US'
                     },
                     {
+                        reason: 'Because Facebook took the phone number you gave them for "security" reasons and then used it for advertising.',
+                        source: 'https://www.theguardian.com/technology/2019/mar/04/facebook-faces-backlash-over-users-safety-phone-numbers'
+                    },
+                    {
+                        reason: 'Because Facebook keeps all videos you upload, even when you "delete" them.',
+                        source: 'https://web.archive.org/web/20180328205320/http://nymag.com/selectall/2018/03/facebook-secretly-saved-videos-users-deleted.html'
+                    },
+                    {
+                        reason: 'Because Facebook is experimenting manipulating your emotions by showing you specific content.',
+                        source: 'https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/'
+                    },
+                    {
                         reason: 'Because Facebook employees are reading your private messages one by one to train Facebook’s artificial intelligence.',
                         source: 'https://www.theverge.com/2019/5/6/18530887/facebook-instagram-ai-data-labeling-annotation-private-posts-outsourced'
                     },

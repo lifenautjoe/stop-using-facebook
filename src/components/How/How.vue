@@ -63,6 +63,7 @@
     import signalLogo from './assets/signal-300x300.png';
     import telegramLogo from './assets/Telegram-300x300.png';
     import zomLogo from './assets/zom-300x300.png';
+    import wireLogo from './assets/wire_logo.png';
     import riotLogo from './assets/riotim-300x300.jpg';
     import fbLogo from './assets/fb_logo.png';
     import waLogo from './assets/wa_logo.png';
@@ -165,6 +166,12 @@
                                 description: 'Fast and secure cloud-based messaging',
                                 image: telegramLogo,
                                 url: 'https://telegram.org/'
+                            },
+                            {
+                                name: 'Wire',
+                                description: 'Encrypted, open-source application with support for slack-style channels, built by ex-Skype employees.',
+                                image: wireLogo,
+                                url: 'https://wire.com/'
                             },
                             {
                                 name: 'Zom',
