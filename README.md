@@ -52,7 +52,7 @@ Please read and follow our [Code of Conduct](/CODE_OF_CONDUCT.md).
 Every contribution accepted is licensed under [MIT](https://opensource.org/licenses/MIT) or any later version.
 You must be careful to not include any code that can not be licensed under this license.
 
-Please read carefully [our license](/LICENSE.txt) and ask us if you have any questions.
+Please read carefully [our license](/LICENSE) and ask us if you have any questions.
 
 #### Git commit message conventions
 
