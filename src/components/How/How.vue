@@ -104,19 +104,19 @@
                         alternatives: [
                             {
                                 name: 'Mastodon',
-                                description: 'With millions of users, Mastadon is the most popular alternative social network',
+                                description: 'With millions of users, Mastadon is the most popular alternative social network.',
                                 image: mastodonLogo,
                                 url: 'https://joinmastodon.org/'
                             },
                             {
                                 name: 'Friendica',
-                                description: 'A Facebook-style social network with no central ownership',
+                                description: 'A Facebook-style social network with no central ownership.',
                                 image: friendicaLogo,
                                 url: 'https://friendi.ca/'
                             },
                             {
                                 name: 'Diaspora',
-                                description: 'Facebook alternative based on the principles of decentralisation, freedom and privacy',
+                                description: 'Facebook alternative based on the principles of decentralisation, freedom and privacy.',
                                 image: diaspora,
                                 url: 'https://joindiaspora.com/'
                             },
@@ -157,13 +157,13 @@
                         alternatives: [
                             {
                                 name: 'Signal',
-                                description: 'Open-source text, voice and video messaging app developed by a non-profit organization. Sustained entirely by grants and donations',
+                                description: 'Open-source text, voice and video messaging app developed by a non-profit organization. Sustained entirely by grants and donations.',
                                 image: signalLogo,
                                 url: 'https://signal.org/'
                             },
                             {
                                 name: 'Telegram',
-                                description: 'Fast and secure cloud-based messaging',
+                                description: 'Fast and secure cloud-based messaging.',
                                 image: telegramLogo,
                                 url: 'https://telegram.org/'
                             },
@@ -175,13 +175,13 @@
                             },
                             {
                                 name: 'Zom',
-                                description: 'Open-source messenger app created by a group of friends with an interest in Tibetan culture',
+                                description: 'Open-source messenger app created by a group of friends with an interest in Tibetan culture.',
                                 image: zomLogo,
                                 url: 'https://zom.im/'
                             },
                             {
                                 name: 'Riot.im',
-                                description: 'End-to-end encrypted open-source slack alternative that allows you to run your own server',
+                                description: 'End-to-end encrypted open-source slack alternative that allows you to run your own server.',
                                 image: riotLogo,
                                 url: 'https://about.riot.im/'
                             },
