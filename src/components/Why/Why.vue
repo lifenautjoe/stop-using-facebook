@@ -78,7 +78,7 @@
                 'reasons': [
                     {
                         reason: 'Because Facebook is lobbying against privacy laws, globally.',
-                        source: 'https://www.theguardian.com/technology/2019/mar/02/facebook-global-lobbying-campaign-against-data-privacy-laws-investment?CMP=share_btn_tw'
+                        source: 'https://www.theguardian.com/technology/2019/mar/02/facebook-global-lobbying-campaign-against-data-privacy-laws-investment'
                     },
                     {
                         reason: 'Because Facebook was covertly paying teens 13 years old and older to spy on them.',
@@ -90,7 +90,7 @@
                     },
                     {
                         reason: 'Because Facebook facilitated Brexit by spreading misinformation, made a fortune and tried to sue to prevent people from finding out.',
-                        source: 'https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy?utm_source=twitter.com&utm_medium=social&utm_campaign=tedspread'
+                        source: 'https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy'
                     },
                     {
                         reason: 'Because Facebook hired climate change deniers as fact-checkers.',
