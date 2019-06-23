@@ -3,7 +3,7 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="is-size-5">
-                    Social media and messaging alternatives courtesy of
+                    {{ $t('how.courtesyOf') }}
                 </h1>
                 <div class="ethical-img-container">
                     <a href="https://ethical.net" rel="nofollow noreferrer noopener">

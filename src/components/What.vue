@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container">
                 <h1 class="is-size-1">
-                    <strong>Stop using <span class="facebook-highlight">Facebook</span>.</strong>
+                    <strong>{{ $t('what.start') }} <span class="facebook-highlight">{{ $t('what.middle') }}</span>{{ $t('what.end') }}</strong>
                 </h1>
             </div>
         </div>

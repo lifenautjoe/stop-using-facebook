@@ -1,11 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import './registerServiceWorker'
-import 'bulma/bulma.sass'
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import buildLocale from './lib/buildLocale';
+import './registerServiceWorker';
+import 'bulma/bulma.sass';
 import '@fortawesome/fontawesome-free/css/all.css';
-import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
+import Buefy from 'buefy';
+import 'buefy/dist/buefy.css';
 import 'animate.css/animate.css';
 var SocialSharing = require('vue-social-sharing');
 
@@ -19,8 +21,12 @@ Vue.use(VueScrollTo, {
 
 Vue.config.productionTip = false;
 
+const i18n = buildLocale(store);
+
 new Vue({
     router,
+    i18n,
+    store,
     render: function (h) {
         return h(App)
     }

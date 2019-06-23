@@ -1,9 +1,13 @@
 <template>
     <div id="app">
-        <sf-navbar></sf-navbar>
-        <router-view/>
-        <sf-footer></sf-footer>
-        <sf-scroll-hud></sf-scroll-hud>
+        <div v-if="isI18nLoaded">
+            <sf-navbar></sf-navbar>
+            <router-view/>
+            <sf-footer></sf-footer>
+            <sf-scroll-hud></sf-scroll-hud>
+        </div>
+        <div v-else-if="isI18nErrored">Something went wrong...</div>
+        <div v-else>Loading...</div>
     </div>
 </template>
 
@@ -40,8 +44,12 @@
     import SfNavbar from "./components/Header";
     import SfFooter from "./components/Footer";
     import SfScrollHud from "./components/ScrollHud/ScrollHud";
+    import { mapGetters } from 'vuex';
 
     export default {
-        components: {SfScrollHud, SfFooter, SfNavbar}
+        components: {SfScrollHud, SfFooter, SfNavbar},
+        computed: {            
+            ...mapGetters([ 'isI18nLoaded', 'isI18nErrored' ])
+        }
     }
 </script>

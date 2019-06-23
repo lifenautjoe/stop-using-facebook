@@ -1,7 +1,7 @@
 <template>
     <section class="container" id="how">
         <h2 class="is-size-2">
-            <strong>How?</strong>
+            <strong>{{ $t('how.title') }}</strong>
         </h2>
         <div class="hows">
             <div v-for="how in hows" class="how has-text-left">
@@ -15,7 +15,7 @@
                 </div>
                 <img :src="how.what.image" :alt="how.what.name" class="how-what__img">
                 <h4 class="is-size-3 how-title is-size-4-mobile">
-                    with
+                    {{ $t('how.with') }}
                 </h4>
                 <div class="columns is-mobile is-multiline">
                     <sf-product class="column is-12-mobile is-4-tablet is-4-desktop how-replace-with"
@@ -88,7 +88,7 @@
             return {
                 'hows': [
                     {
-                        title: 'Replace the social apps',
+                        title: this.$t('how.replace.social'),
                         what: [
                             {
                                 name: 'Facebook',
@@ -104,44 +104,44 @@
                         alternatives: [
                             {
                                 name: 'Mastodon',
-                                description: 'With millions of users, Mastadon is the most popular alternative social network.',
+                                description: this.$t('how.descriptions.social.mastodon'),
                                 image: mastodonLogo,
                                 url: 'https://joinmastodon.org/'
                             },
                             {
                                 name: 'Friendica',
-                                description: 'A Facebook-style social network with no central ownership.',
+                                description: this.$t('how.descriptions.social.friendica'),
                                 image: friendicaLogo,
                                 url: 'https://friendi.ca/'
                             },
                             {
                                 name: 'Diaspora',
-                                description: 'Facebook alternative based on the principles of decentralisation, freedom and privacy.',
+                                description: this.$t('how.descriptions.social.diaspora'),
                                 image: diaspora,
                                 url: 'https://joindiaspora.com/'
                             },
                             {
                                 name: 'Pixelfed',
-                                description: 'Ad-free photo sharing app with chronological timeline.',
+                                description: this.$t('how.descriptions.social.pixelfed'),
                                 image: pixelFed,
                                 url: 'https://pixelfed.social/'
                             },
                             {
                                 name: 'Tookapic',
-                                description: '365-day photo-sharing platform that encourages you to be thankful for beautiful, ordinary days.',
+                                description: this.$t('how.descriptions.social.tookapic'),
                                 image: tookapicLogo,
                                 url: 'https://tookapic.com/'
                             },
                             {
-                                name: 'Openbook',
-                                description: 'Privacy-friendly, transparent and community-driven social network.',
+                                name: 'Openspace',
+                                description: this.$t('how.descriptions.social.openspace'),
                                 image: openbookLogo,
                                 url: 'https://openbook.social'
                             },
                         ],
                     },
                     {
-                        title: 'Replace the messaging apps',
+                        title: this.$t('how.replace.messaging'),
                         what: [
                             {
                                 name: 'Whatsapp',
@@ -157,38 +157,38 @@
                         alternatives: [
                             {
                                 name: 'Signal',
-                                description: 'Open-source text, voice and video messaging app developed by a non-profit organization. Sustained entirely by grants and donations.',
+                                description: this.$t('how.descriptions.messaging.signal'),
                                 image: signalLogo,
                                 url: 'https://signal.org/'
                             },
                             {
                                 name: 'Telegram',
-                                description: 'Fast and secure cloud-based messaging.',
+                                description: this.$t('how.descriptions.messaging.telegram'),
                                 image: telegramLogo,
                                 url: 'https://telegram.org/'
                             },
                             {
                                 name: 'Wire',
-                                description: 'Encrypted, open-source application with support for slack-style channels, built by ex-Skype employees.',
+                                description: this.$t('how.descriptions.messaging.wire'),
                                 image: wireLogo,
                                 url: 'https://wire.com/'
                             },
                             {
                                 name: 'Zom',
-                                description: 'Open-source messenger app created by a group of friends with an interest in Tibetan culture.',
+                                description: this.$t('how.descriptions.messaging.zom'),
                                 image: zomLogo,
                                 url: 'https://zom.im/'
                             },
                             {
                                 name: 'Riot.im',
-                                description: 'End-to-end encrypted open-source slack alternative that allows you to run your own server.',
+                                description: this.$t('how.descriptions.messaging.riot'),
                                 image: riotLogo,
                                 url: 'https://about.riot.im/'
                             },
                         ],
                     },
                     {
-                        title: 'Replace the VR ecosystem',
+                        title: this.$t('how.replace.vr'),
                         what: [
                             {
                                 name: 'Oculus',
@@ -199,13 +199,13 @@
                         alternatives: [
                             {
                                 name: 'HTC Vive',
-                                description: 'Virtual reality ecosystem by HTC & Valve.',
+                                description: this.$t('how.descriptions.vr.htcvive'),
                                 image: viveLogo,
                                 url: 'https://www.vive.com'
                             },
                             {
                                 name: 'Playstation VR',
-                                description: 'Virtual reality ecosystem by Sony on the PlayStation.',
+                                description: this.$t('how.descriptions.vr.playstationvr'),
                                 image: playstationVrLogo,
                                 url: 'https://www.playstation.com/en-ae/explore/playstation-vr/'
                             },
