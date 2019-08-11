@@ -73,7 +73,7 @@
     import friendicaLogo from './assets/friendica-300x300.png';
     import diaspora from './assets/diaspora-300x300.png';
     import pixelFed from './assets/pixelfed-300x300.png';
-    import openbookLogo from './assets/Openbook-300x300.png';
+    import okunaLogo from './assets/okuna-300x300.png';
     import oculusLogo from './assets/oculus_logo.png';
     import viveLogo from './assets/vive_logo.png';
     import playstationVrLogo from './assets/psvr_logo.png';
@@ -133,10 +133,10 @@
                                 url: 'https://tookapic.com/'
                             },
                             {
-                                name: 'Openspace',
-                                description: this.$t('how.descriptions.social.openspace'),
-                                image: openbookLogo,
-                                url: 'https://openbook.social'
+                                name: 'Okuna',
+                                description: this.$t('how.descriptions.social.okuna'),
+                                image: okunaLogo,
+                                url: 'https://okuna.io'
                             },
                         ],
                     },
