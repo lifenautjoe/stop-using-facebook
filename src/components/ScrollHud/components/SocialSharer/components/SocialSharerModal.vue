@@ -12,7 +12,7 @@
                             <i class="fab fa-twitter"></i>
                         </span>
                         <span>
-                                Share on Twitter
+                                {{ $t('common.shareOn.twitter') }}
                         </span>
                     </button>
                 </network>
@@ -22,7 +22,7 @@
                             <i class="fab fa-facebook-f"></i>
                         </span>
                         <span>
-                                Share on Facebook
+                                {{ $t('common.shareOn.facebook') }}
                         </span>
                     </button>
                 </network>
@@ -32,7 +32,7 @@
                             <i class="fab fa-linkedin-in"></i>
                         </span>
                         <span>
-                                Share on LinkedIn
+                                {{ $t('common.shareOn.linkedin') }}
                         </span>
                     </button>
                 </network>
@@ -42,7 +42,7 @@
                             <i class="fab fa-whatsapp"></i>
                         </span>
                         <span>
-                                Share on Whatsapp
+                                {{ $t('common.shareOn.whatsapp') }}
                         </span>
                     </button>
                 </network>
@@ -52,7 +52,7 @@
                             <i class="fa fa-envelope"></i>
                         </span>
                         <span>
-                                Share by E-mail
+                                {{ $t('common.shareOn.email') }}
                         </span>
                     </button>
                 </network>
@@ -62,7 +62,7 @@
             <a href="https://www.producthunt.com/posts/stopusingfacebook-co?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stopusingfacebook-co"
                target="_blank" rel="nofollow noreferrer noopener column is-narrow"><img
                     src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=153793&theme=light"
-                    alt="StopUsingFacebook.co - A curated list of reasons to stop using Facebook and how-to. | Product Hunt Embed"
+                    :alt="$t('common.productHuntAlt')"
                     style="width: 250px; height: 45px;" width="250px" height="45px"/></a>
         </div>
     </div>

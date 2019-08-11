@@ -4,13 +4,13 @@
             <div class="navbar-menu" id="navbarBasicExample">
                 <div class="navbar-end">
                     <a class="navbar-item" href="#what" v-scroll-to="'#what'">
-                        what
+                        {{ $t('common.what') }}
                     </a>
                     <a class="navbar-item" href="#why" v-scroll-to="'#why'">
-                        why
+                        {{ $t('common.why') }}
                     </a>
                     <a class="navbar-item" href="#how" v-scroll-to="'#how'">
-                        how
+                        {{ $t('common.how') }}
                     </a>
                 </div>
             </div>

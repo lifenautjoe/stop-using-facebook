@@ -5,7 +5,7 @@
             <i class="fas fa-share-alt"></i>
         </span>
             <span>
-            Share
+            {{ $t('common.share') }}
         </span>
         </button>
     </div>

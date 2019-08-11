@@ -1,0 +1,81 @@
+{
+  "common": {
+    "what": "what",
+    "why": "why",
+    "how": "how",
+    "productHuntAlt": "StopUsingFacebook.co - A curated list of reasons to stop using Facebook and how-to. | Product Hunt Embed",
+    "share": "Share",
+    "shareOn": {
+      "twitter": "Share on Twitter",
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn",
+      "whatsapp": "Share on WhatsApp",
+      "email": "Share by E-mail"
+    }
+  },
+  "what": {
+    "start": "Stop using",
+    "middle": "Facebook",
+    "end": "."
+  },
+  "why": {
+    "title": "Why?",
+    "source": "Source",
+    "reasons": {
+      "lobbying": "Because Facebook is lobbying against privacy laws, globally.",
+      "spying": "Because Facebook was covertly paying teens 13 years old and older to spy on them.",
+      "pm": "Because Facebook gave exclusive access to your private messages and friends to large tech companies, device vendors, retailers, entertainment sites, automakers and media organizations.",
+      "brexit": "Because Facebook facilitated Brexit by spreading misinformation, made a fortune and tried to sue to prevent people from finding out.",
+      "climate-change-deniers": "Because Facebook hired climate change deniers as fact-checkers.",
+      "email-passwords": "Because Facebook stole 1.5 million people’s email contacts after asking them for their email passwords.",
+      "phone-advertising": "Because Facebook took the phone number you gave them for \"security\" reasons and then used it for advertising.",
+      "keeps-videos": "Because Facebook keeps all videos you upload, even when you \"delete\" them.",
+      "emotion-manipulation": "Because Facebook is experimenting manipulating your emotions by showing you specific content.",
+      "facebook-ai": "Because Facebook employees are reading your private messages one by one to train Facebook’s artificial intelligence.",
+      "product-fusion": "Because Facebook plan to fuse Instagram, Facebook and Whatsapp is not about your privacy, It’s about consolidating all the data they have on you.",
+      "instagram-passwords": "Because Facebook updated an old press release with information that millions of passwords of instagram accounts had been compromised while the Mueller report was being released in order to avoid criticism and scrutiny.",
+      "patriot-author": "Because Facebook hired the author of the PATRIOT act, the most significant threats to civil liberties, privacy, and democratic traditions in US history, as general counsel.",
+      "frick-ethics": "Because Facebook employees say “F*ck ethics, money is everything”. ",
+      "conspiracy-theories": "Because Facebook not only knows conspiracy theories are being spread on the platform, they make a fortune out of it.",
+      "targeted-ads": "Because Facebook doesn’t want you to know the reason you see certain ads, just pretends it does."
+    }
+  },
+  "how": {
+    "title": "How?",
+    "with": "with",
+    "replace": {
+      "social": "Replace the social apps",
+      "messaging": "Replace the messaging apps",
+      "vr": "Replace the VR ecosystem"
+    },
+    "descriptions": {
+      "social": {
+        "mastodon": "With millions of users, Mastadon is the most popular alternative social network.",
+        "friendica": "A Facebook-style social network with no central ownership.",
+        "diaspora": "Facebook alternative based on the principles of decentralisation, freedom and privacy.",
+        "pixelfed": "Ad-free photo sharing app with chronological timeline.",
+        "tookapic": "365-day photo-sharing platform that encourages you to be thankful for beautiful, ordinary days.",
+        "okuna": "Privacy-friendly, transparent and community-driven social network."
+      },
+      "messaging": {
+        "signal": "Open-source text, voice and video messaging app developed by a non-profit organization. Sustained entirely by grants and donations.",
+        "telegram": "Fast and secure cloud-based messaging.",
+        "wire": "Encrypted, open-source application with support for slack-style channels, built by ex-Skype employees.",
+        "zom": "Open-source messenger app created by a group of friends with an interest in Tibetan culture.",
+        "riot": "End-to-end encrypted open-source slack alternative that allows you to run your own server."
+      },
+      "vr": {
+        "htcvive": "Virtual reality ecosystem by HTC & Valve.",
+        "playstationvr": "Virtual reality ecosystem by Sony on the PlayStation."
+      }
+    },
+    "courtesyOf": "Social media and messaging alternatives courtesy of"
+  },
+  "footer": {
+    "projectBy": {
+      "start": "An MIT licensed, weekend project by",
+      "end": ""
+    },
+    "contribute": "Contribute on Github."
+  }
+}
