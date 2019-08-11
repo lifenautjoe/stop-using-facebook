@@ -44,12 +44,21 @@
     import SfNavbar from "./components/Header";
     import SfFooter from "./components/Footer";
     import SfScrollHud from "./components/ScrollHud/ScrollHud";
-    import { mapGetters } from 'vuex';
+    // import { mapGetters } from 'vuex';
+    // transform-object-rest-spread does not work properly with the current
+    // config for some reason, so we'll have to do it the old-fashioned way
+    // to support Microsoft Edge. Webpack/babel-loader probably doesn't
+    // convert the spread operator to regular key-value props
 
     export default {
         components: {SfScrollHud, SfFooter, SfNavbar},
-        computed: {            
-            ...mapGetters([ 'isI18nLoaded', 'isI18nErrored' ])
+        computed: {
+            isI18nLoaded: function () {
+                return this.$store.getters.isI18nLoaded;
+            },
+            isI18nErrored: function () {
+                return this.$store.getters.isI18nErrored;
+            }
         }
     }
 </script>
