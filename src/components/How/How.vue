@@ -63,7 +63,6 @@
     import signalLogo from './assets/signal-300x300.png';
     import telegramLogo from './assets/Telegram-300x300.png';
     import zomLogo from './assets/zom-300x300.png';
-    import wireLogo from './assets/wire_logo.png';
     import riotLogo from './assets/riotim-300x300.jpg';
     import fbLogo from './assets/fb_logo.png';
     import waLogo from './assets/wa_logo.png';
@@ -166,12 +165,6 @@
                                 description: this.$t('how.descriptions.messaging.telegram'),
                                 image: telegramLogo,
                                 url: 'https://telegram.org/'
-                            },
-                            {
-                                name: 'Wire',
-                                description: this.$t('how.descriptions.messaging.wire'),
-                                image: wireLogo,
-                                url: 'https://wire.com/'
                             },
                             {
                                 name: 'Zom',
