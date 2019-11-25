@@ -1,0 +1,80 @@
+{
+  "common": {
+    "what": "quoi",
+    "why": "pourquoi",
+    "how": "comment",
+    "productHuntAlt": "StopUsingFacebook.co - Une liste des raisons d'arrêter d'utiliser Facebook et des alternatives.",
+    "share": "Partager",
+    "shareOn": {
+      "twitter": "Partager sur Twitter",
+      "facebook": "Partager sur Facebook",
+      "linkedin": "Partager sur LinkedIn",
+      "whatsapp": "Partager sur WhatsApp",
+      "email": "Partager par mail"
+    }
+  },
+  "what": {
+    "start": "Arrêtez d'utiliser",
+    "middle": "Facebook",
+    "end": "."
+  },
+  "why": {
+    "title": "Pourquoi ?",
+    "source": "Source",
+    "reasons": {
+      "lobbying": "Parce que Facebook fait du lobbying contre les lois sur la protection de la vie privée, partout dans le monde.",
+      "spying": "Parce que Facebook payait secrètement des adolescents de 13 ans et plus pour les espionner.",
+      "pm": "Parce que Facebook a donné un accès exclusif à vos messages privés et à la liste de vos amis aux grandes entreprises, aux vendeurs d'appareils, aux distributeurs, aux sites de divertissement, aux constructeurs automobiles et aux médias.",
+      "brexit": "Parce que Facebook a facilité Brexit en diffusant de fausses informations, a fait fortune et a essayé de poursuivre en justice pour empêcher les gens de le découvrir.",
+      "climate-change-deniers": "Parce que Facebook a embauché des négationnistes du changement climatique pour vérifier les faits.",
+      "email-passwords": "Parce que, après avoir demandé leur mot de passe e-mail, Facebook a volé 1,5 million de contacts à ses utilisateurs.",
+      "phone-advertising": "Parce que Facebook a utilisé le numéro de téléphone que vous lui avez donné pour des raisons de « sécurité » à des fins publicitaires.",
+      "keeps-videos": "Parce que Facebook conserve toutes les vidéos que vous envoyez, même si vous les « supprimées ».",
+      "emotion-manipulation": "Parce que Facebook expérimente la manipulation des émotions en vous montrant un contenu ciblé.",
+      "facebook-ai": "Parce que les employés de Facebook lisent vos messages privés un par un pour former l'intelligence artificielle de Facebook.",
+      "product-fusion": "Parce que le projet de Facebook de fusionner Instagram, Facebook et Whatsapp n'est pas pour votre vie privée, mais pour mettre en corrélation toutes les données qu'ils ont sur vous.",
+      "instagram-passwords": "Parce que Facebook a mis à jour discrètement un communiqué de presse pour signaler que des millions de mots de passe de comptes Instagram avaient été compromis, et ce pendant la publication du rapport Mueller afin d'éviter toute critique et tout examen minutieux.",
+      "patriot-author": "Parce que Facebook a engagé comme avocat général l'auteur du PATRIOT act, la loi qui est la plus importante menace pour les libertés civiles, la vie privée et les traditions démocratiques de l'histoire des États-Unis.",
+      "frick-ethics": "Parce que les employés de Facebook disent “F*ck ethics, money is everything” (On emmerde l'éthique, l'argent avant tout). ",
+      "conspiracy-theories": "Parce que Facebook, en plus de savoir que des théories de conspiration se répandent sur sa plateforme, en tire une fortune.",
+      "targeted-ads": "Parce que Facebook ne veut pas que vous connaissiez la raison pour laquelle vous voyez certaines publicités, mais fait semblant que si."
+    }
+  },
+  "how": {
+    "title": "Comment ?",
+    "with": "par",
+    "replace": {
+      "social": "Remplacez ces plateformes sociales",
+      "messaging": "Remplacez ces applications de messagerie",
+      "vr": "Remplacer l'écosystème VR"
+    },
+    "descriptions": {
+      "social": {
+        "mastodon": "Avec des millions d'utilisateurs, Mastodon est le réseau social alternatif le plus populaire.",
+        "friendica": "Un réseau social à-la-Facebook, sans autorité centrale.",
+        "diaspora": "Alternative Facebook basée sur les principes de décentralisation, de liberté et de respect de la vie privée.",
+        "pixelfed": "Application de partage de photos sans publicité avec un fil d'actualité chronologique.",
+        "tookapic": "Une plateforme de partage de photos qui encourage à publier une photo chaque jour pour vous se découvrir soi-même, à s'exprimer, à documenter et à améliorer votre vie quotidienne. Un jour à la fois.",
+        "okuna": "Un réseau social respectueux de la vie privée, transparent et axé sur la communauté."
+      },
+      "messaging": {
+        "signal": "Application de messagerie texte, vocale et vidéo libre développée par un organisme sans but lucratif. Soutenu entièrement par des subventions et des dons.",
+        "telegram": "Messagerie en ligne rapide et sécurisée.",
+        "zom": "Application de messagerie open-source créée par un groupe d'amis intéressés par la culture tibétaine.",
+        "riot": "Une alternative à Slack chiffrée de bout en bout qui vous permet d'utiliser votre propre serveur."
+      },
+      "vr": {
+        "htcvive": "Écosystème de réalité virtuelle par HTC & Valve.",
+        "playstationvr": "Écosystème de réalité virtuelle par Sony sur la PlayStation."
+      }
+    },
+    "courtesyOf": "alternatives proposées par"
+  },
+  "footer": {
+    "projectBy": {
+      "start": "Un projet du week-end sous licence MIT, par",
+      "end": ""
+    },
+    "contribute": "Contribuer sur Github."
+  }
+}
