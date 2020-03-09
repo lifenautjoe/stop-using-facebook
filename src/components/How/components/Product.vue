@@ -42,6 +42,7 @@
 
             &__description{
                 padding-top: 1em;
+                word-wrap: break-word;
             }
         }
     }
